@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PPH21Page snaptest 1`] = `
+<div>
+  <NavigationComponent
+    path="/"
+  />
+  <main>
+    <div
+      className="container"
+    >
+      <FormPPH21PageComponent />
+    </div>
+  </main>
+</div>
+`;

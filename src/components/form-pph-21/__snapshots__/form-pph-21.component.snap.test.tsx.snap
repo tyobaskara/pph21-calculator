@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormPPH21Page snaptest 1`] = `
+<div>
+  <form
+    className="form-pph21"
+    onSubmit={[Function]}
+  >
+    <h1>
+      PPH-21 Calculator
+    </h1>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="annualIncome"
+      >
+        Annual Income
+      </label>
+      <input
+        id="annualIncome"
+        name="annualIncome"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="taxRelief"
+      >
+        Person Profile:
+      </label>
+      <select
+        dir="rtl"
+        id="taxRelief"
+        name="taxRelief"
+        onChange={[Function]}
+        value="TK0"
+      >
+        <option
+          value="TK0"
+        >
+          TK0 - Single
+        </option>
+        <option
+          value="K0"
+        >
+          K0 - Married with no dependant
+        </option>
+        <option
+          value="K1"
+        >
+          K1 - Married with 1 dependant
+        </option>
+        <option
+          value="K2"
+        >
+          K2 - Married with 2 dependants
+        </option>
+        <option
+          value="K3"
+        >
+          K3 - Married with 3 dependants
+        </option>
+      </select>
+    </div>
+    <div>
+      <button
+        type="submit"
+      >
+        Calculate
+      </button>
+    </div>
+  </form>
+  <div
+    className="form-pph21-result"
+  />
+</div>
+`;
