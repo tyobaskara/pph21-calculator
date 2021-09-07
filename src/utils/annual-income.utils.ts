@@ -54,7 +54,7 @@ export const calculateAnnualTaxIncome = (
       const { maxAmount, percent } = taxSchemes[index];
       
       if (annualTaxableIncome > maxAmount) {
-        const taxIncome = annualTaxableIncome * percent;
+        const taxIncome = maxAmount * percent;
         narativeBody += `(${formatRupiah(maxAmount.toString())} * ${percent*100}%) + `;
         
         totalTaxIncome += taxIncome;
